@@ -5,6 +5,6 @@
   NIM   : 2405551034
   Matkul: PBO (B)
 
-* Nama  : Anak Agung Istri Mas Gayatri Dewi
-  NIM   : 2405551016
+* Nama  : I Wayan Daffa Adhirajasa
+  NIM   : 2405551144
   Matkul: PBO (B)
