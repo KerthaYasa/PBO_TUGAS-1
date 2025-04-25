@@ -1,4 +1,6 @@
 # PBO_TUGAS-1
+# PROGRAM INVESTASI SAHAM DAN SURAT BERHARGA NEGARA(SBN)
+
 
 # Identitas Kami
 * Nama  : I Komang Cahya Kertha Yasa
@@ -8,3 +10,54 @@
 * Nama  : I Wayan Daffa Adhirajasa
   NIM   : 2405551144
   Matkul: PBO (B)
+
+  # UML
+
+
+
+  # BAGAIMANA PROGRAM DIJALANKAN
+
+
+  # PENGGUNAAN PROGRAM
+
+
+  # LOGIN PAGE
+
+
+  # MENU ADMIN
+
+
+  # MENU ADMIN SAHAM
+
+
+  # TAMBAH SAHAM
+
+
+  # UBAH HARGA SAHAM
+
+
+  # MENU ADMIN SBN
+
+
+  # TAMBAH SBN
+  
+
+  # MENU CUSTOMER
+
+
+  # BELI SAHAM
+
+
+  # JUAL SAHAM
+
+
+  # BELI SBN
+
+
+  # SIMULASI SBN
+
+
+  # PORTOFOLIO
+
+
+  # LOGOUT
