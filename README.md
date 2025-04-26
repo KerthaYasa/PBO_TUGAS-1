@@ -25,15 +25,25 @@ Di bawah ini adalah deskripsi program, penjelasan dari bagaimana program akan di
 
 
 # BAGAIMANA PROGRAM DIJALANKAN
+Pengembangan program ini menggunakan konsep-konsep dasar dari Object Oriented Programming yaitu:
 
+1. Penerapan Object dan Class.
+2. Penggunaan Alur Kontrol (Flow Control) While loop, for each loop, do while loop, if-else dan     switch case.
+3. Array list.
+4. Inheritance
+5. Nested Class
+6. Enscapsulasi
+7. Interface
 
 # PENGGUNAAN PROGRAM
-
+Di bawah ini adalah contoh implementasi program investasi saham dan surat berharga negara (SBN) lengkap dengan hasil tangkapan layar. Penjelasan mengenai cara kerja kode dapat ditemukan di bawah ini.
 
 # LOGIN PAGE
 
 
 # MENU ADMIN
+![Login Admin](https://github.com/user-attachments/assets/15817502-e8ec-410a-8522-443588329209)
+
 
 
 # MENU ADMIN SAHAM
