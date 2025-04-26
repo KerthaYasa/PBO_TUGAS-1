@@ -11,7 +11,7 @@ Program ini juga dilengkapi dengan input validasi pada class inputUtil untuk mem
 
 Di bawah ini adalah deskripsi program, penjelasan dari bagaimana program akan dijalankan, dan UML dari program ini. Untuk deskripsi kode lebih lengkap dapat dilihat pada kode program yang sudah dicommit sebelumnya (sudah disertakan beberapa comment untuk membantu dalam mengerti cara kerja program).
 
-# Identitas Kam
+# Identitas Kami
 * Nama  : I Komang Cahya Kertha Yasa
   NIM   : 2405551034
   Matkul: PBO (B)
