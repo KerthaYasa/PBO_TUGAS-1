@@ -24,7 +24,7 @@ Di bawah ini adalah deskripsi program, penjelasan dari bagaimana program akan di
   Matkul: PBO (B)
 
 # UML
-![UML PBO](https://github.com/user-attachments/assets/943da35d-8da2-4757-925d-33db9590bd01)
+![UML PBO](https://github.com/user-attachments/assets/b3531082-5d97-48e6-994b-5e5fb6aa081c)
 
 # BAGAIMANA PROGRAM DIJALANKAN
 Pengembangan program ini menggunakan konsep-konsep dasar dari Object Oriented Programming yaitu:
