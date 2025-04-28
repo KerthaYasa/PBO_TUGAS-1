@@ -108,7 +108,14 @@ public class CustomerService implements InvestasiService {
 
         System.out.printf("Jumlah lembar yang dimiliki: %,d\n", jumlahDimiliki);
         System.out.print("Jumlah lembar yang akan dijual: ");
-        int jumlahJual = InputUtil.getIntInput(1, jumlahDimiliki);
+        int jumlahJual = InputUtil.getIntInput(1, Integer.MAX_VALUE);
+
+        if (jumlahJual > jumlahDimiliki) {
+            System.out.println("---------------------------------------------------------------------");
+            System.out.println("Gagal: Jumlah yang dijual melebihi jumlah yang dimiliki.");
+            InputUtil.pressEnterToContinue();
+            return;
+        }
 
         portofolio.kurangiSaham(sahamDipilih, jumlahJual);
         double totalHarga = sahamDipilih.getHarga() * jumlahJual;
