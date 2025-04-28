@@ -1,5 +1,7 @@
 # PBO_TUGAS-1
 # PROGRAM INVESTASI SAHAM DAN SURAT BERHARGA NEGARA(SBN)
+
+<p align="justify">
 Halo! ini merupakan proyek kecil untuk melakukan investasi saham dan surat berharga negara(SBN) demi menuntaskan Tugas I PBO KAMI.
 
 Program Java ini dirancang untuk dua jenis user dengan akses yang berbeda, yaitu:
@@ -10,6 +12,7 @@ Program Java ini dirancang untuk dua jenis user dengan akses yang berbeda, yaitu
 Program ini juga dilengkapi dengan input validasi pada class inputUtil untuk memastikan pengguna memberikan input yang sesuai dengan yang dibutuhkan oleh program.
 
 Di bawah ini adalah deskripsi program, penjelasan dari bagaimana program akan dijalankan, dan UML dari program ini. Untuk deskripsi kode lebih lengkap dapat dilihat pada kode program yang sudah dicommit sebelumnya (sudah disertakan beberapa comment untuk membantu dalam mengerti cara kerja program).
+</p>
 
 # Identitas Kami
 * Nama  : I Komang Cahya Kertha Yasa
@@ -21,19 +24,18 @@ Di bawah ini adalah deskripsi program, penjelasan dari bagaimana program akan di
   Matkul: PBO (B)
 
 # UML
-
-
+![UML PBO](https://github.com/user-attachments/assets/943da35d-8da2-4757-925d-33db9590bd01)
 
 # BAGAIMANA PROGRAM DIJALANKAN
 Pengembangan program ini menggunakan konsep-konsep dasar dari Object Oriented Programming yaitu:
 
 1. Penerapan Object dan Class.
-2. Penggunaan Alur Kontrol (Flow Control) While loop, for each loop, do while loop, if-else dan     switch case.
-3. Array list.
-4. Inheritance
-5. Nested Class
-6. Enscapsulasi
-7. Interface
+2. Penggunaan Alur Kontrol (Flow Control) While loop, for each loop, if, if-else dan switch case.
+3. Array list
+4. Nested Class
+5. Enscapsulasi
+6. Interface
+7. Override
 
 # PENGGUNAAN PROGRAM
 Di bawah ini adalah contoh implementasi program investasi saham dan surat berharga negara (SBN) lengkap dengan hasil tangkapan layar. Penjelasan mengenai cara kerja kode dapat ditemukan di bawah ini.
