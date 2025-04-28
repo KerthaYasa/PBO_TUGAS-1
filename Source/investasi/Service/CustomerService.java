@@ -90,7 +90,6 @@ public class CustomerService implements InvestasiService {
             return;
         }
 
-        // Tampilkan saham yang dimiliki
         System.out.println("Daftar Saham Anda:");
         int index = 1;
         Saham[] sahamArray = sahamDimiliki.keySet().toArray(new Saham[0]);
@@ -168,7 +167,6 @@ public class CustomerService implements InvestasiService {
             return;
         }
 
-        // Tampilkan daftar SBN
         System.out.println("Daftar SBN Tersedia:");
         for (int i = 0; i < daftarSBN.size(); i++) {
             System.out.printf("%d. %s\n", i + 1, daftarSBN.get(i));
@@ -182,7 +180,6 @@ public class CustomerService implements InvestasiService {
         System.out.print("Nominal investasi: ");
         double nominal = getDoubleInput();
 
-        // Hitung bunga per bulan: %bunga / 12 bulan * 90% * nominal investasi
         double bungaPerBulan = (sbnDipilih.getBunga() / 100 / 12) * 0.9 * nominal;
 
         System.out.println("-----------------------    HASIL SIMULASI    ------------------------");
@@ -216,7 +213,7 @@ public class CustomerService implements InvestasiService {
                 int jumlah = entry.getValue();
                 double nilaiPasar = saham.getHarga() * jumlah;
                 totalNilaiPasar += nilaiPasar;
-                totalPembelian += nilaiPasar; // Asumsi harga beli = harga sekarang
+                totalPembelian += nilaiPasar;
 
                 System.out.printf("%s - %,d lembar - Nilai Pasar: Rp%,.2f\n",
                         saham, jumlah, nilaiPasar);
