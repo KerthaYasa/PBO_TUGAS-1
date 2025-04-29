@@ -30,12 +30,16 @@ public class DataStorage {
                 LocalDate.now().plusMonths(12), 1000000000));
     }
 
-        public void tambahSaham(Saham saham) {
+    public void tambahSaham(Saham saham) {
         daftarSaham.add(saham);
     }
 
     public List<Saham> getDaftarSaham() {
         return daftarSaham;
+    }
+
+    public void hapusSaham(Saham saham) {
+        daftarSaham.remove(saham);
     }
 
     public void tambahSBN(SBN sbn) {
@@ -45,4 +49,9 @@ public class DataStorage {
     public List<SBN> getDaftarSBN() {
         return daftarSBN;
     }
+
+    public void hapusSBN(SBN sbn) {
+        daftarSBN.remove(sbn);
+    }
+
 }
