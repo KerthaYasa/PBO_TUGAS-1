@@ -24,7 +24,7 @@ Di bawah ini adalah deskripsi program, penjelasan dari bagaimana program akan di
   Matkul: PBO (B)
 
 # UML
-![UML PBO](https://github.com/user-attachments/assets/b3531082-5d97-48e6-994b-5e5fb6aa081c)
+![UML PBO FIX](https://github.com/user-attachments/assets/4db589f9-4c30-4cab-833c-ce7d3bb068f0)
 
 # BAGAIMANA PROGRAM DIJALANKAN
 Pengembangan program ini menggunakan konsep-konsep dasar dari Object Oriented Programming yaitu:
@@ -32,7 +32,7 @@ Pengembangan program ini menggunakan konsep-konsep dasar dari Object Oriented Pr
 1. Penerapan Object dan Class.
 2. Penggunaan Alur Kontrol (Flow Control) While loop, for each loop, if, if-else dan switch case.
 3. Array list
-4. Nested Class
+4. Map dan Hash Map
 5. Enscapsulasi
 6. Interface
 7. Override
