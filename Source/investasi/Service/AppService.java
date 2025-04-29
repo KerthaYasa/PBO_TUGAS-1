@@ -68,7 +68,7 @@ public class AppService {
             ClearScreen.clear();
             if (user.getRole().equalsIgnoreCase("admin")) {
                 adminService.showAdminMenu();
-                isLoggedIn = false; // Kembali ke menu utama setelah logout admin
+                isLoggedIn = false;
             } else {
                 customerService.showCustomerMenu();
                 isLoggedIn = false;

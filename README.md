@@ -4,10 +4,11 @@
 <p align="justify">
 Halo! ini merupakan proyek kecil untuk melakukan investasi saham dan surat berharga negara(SBN) demi menuntaskan Tugas I PBO KAMI.
 
-Program Java ini dirancang untuk dua jenis user dengan akses yang berbeda, yaitu:
+Program Java ini dirancang dengan mekanisme investasi sebagai berikut:
 
-  1. Admin diberikan akses untuk menambahkan dan mengubah harga saham, serta menambahkan surat berharga negara(SBN)
-  2. Customer diberikan akses untuk membeli saham, menjual saham, membeli SBN, simulasi SBN dan melihat portofolio sendiri
+  1. Program meminta pengguna untuk login. Jika login gagal tampilkan pesan gagal, dan jika login berhasil tampilkan dua menu investasi yaitu Saham dan SBN.
+  2. Admin dapat menambahkan saham, mengubah harga saham, dan menambahkan produk SBN.
+  3. Customer dapat melakukan pembelian dan penjualan saham, pembelian SBN, simulasi SBN, dan melihat portofolio investasi.
      
 Program ini juga dilengkapi dengan input validasi pada class inputUtil untuk memastikan pengguna memberikan input yang sesuai dengan yang dibutuhkan oleh program.
 
@@ -42,6 +43,7 @@ Di bawah ini adalah contoh implementasi program investasi saham dan surat berhar
 
 # LOGIN PAGE
 ![Login Page](https://github.com/user-attachments/assets/947fa72f-c141-42b9-87a7-31e6e116187c)
+![image](https://github.com/user-attachments/assets/5b2680ac-b276-4e17-80d4-622a61f7668c)
 ![Login Admin](https://github.com/user-attachments/assets/41bf7d13-a3e5-4be5-bbeb-c06f4729c78c)
 ![Login Customer](https://github.com/user-attachments/assets/3a345ce9-646a-466a-a818-289fa93c524c)
 
@@ -107,9 +109,10 @@ Customer bisa membeli saham dari list daftar saham yang tersedia seperti pada ga
 
 # JUAL SAHAM
 ![Jual Saham](https://github.com/user-attachments/assets/03456afc-a152-4622-9608-26002e56b970)
+![image](https://github.com/user-attachments/assets/d95f7ed0-70b2-4267-ad4c-dfb4a1060453)
 
 <p align="justify">
-Customer bisa menjual saham dari list daftar saham yang customer punya. Setelah memilih saham yang ingin dijual, customer perlu memilih jumlah lembar yang ingin dijual. Jika berhasil menjual, maka akan terdapat pesan seperti gambar di atas
+Customer bisa menjual saham dari list daftar saham yang customer punya. Setelah memilih saham yang ingin dijual, customer perlu memilih jumlah lembar yang ingin dijual. Jika berhasil menjual, maka akan terdapat pesan seperti gambar di atas, bila gagal maka akan muncul pesan seperti gambar di atas dan customer akan kembali ke menu setelah menekan enter.
 </p>
 
 # BELI SBN
