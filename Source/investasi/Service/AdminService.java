@@ -43,7 +43,7 @@ public class AdminService implements InvestasiService {
         while (isSahamMenuActive) {
             ClearScreen.clear();
             adminSahamMenu();
-            int choice = InputUtil.getIntInput(1, 3);
+            int choice = InputUtil.getIntInput(1, 5);
 
             switch (choice) {
                 case 1:
@@ -53,6 +53,12 @@ public class AdminService implements InvestasiService {
                     ubahHargaSaham();
                     break;
                 case 3:
+                    lihatDaftarSaham();
+                    break;
+                case 4:
+                    hapusSaham();
+                    break;
+                case 5:
                     isSahamMenuActive = false;
                     break;
             }
@@ -110,19 +116,66 @@ public class AdminService implements InvestasiService {
         InputUtil.pressEnterToContinue();
     }
 
+    private void lihatDaftarSaham() {
+        ClearScreen.clear();
+        listSahamView();
+        List<Saham> daftarSaham = dataStorage.getDaftarSaham();
+
+        if (daftarSaham.isEmpty()) {
+            System.out.println("Belum ada saham yang terdaftar.");
+        } else {
+            for (int i = 0; i < daftarSaham.size(); i++) {
+                System.out.printf("%d. %s\n", i + 1, daftarSaham.get(i));
+            }
+        }
+        System.out.println("---------------------------------------------------------------------");
+        InputUtil.pressEnterToContinue();
+    }
+
+    private void hapusSaham() {
+        ClearScreen.clear();
+        deleteSaham();
+        List<Saham> daftarSaham = dataStorage.getDaftarSaham();
+
+        if (daftarSaham.isEmpty()) {
+            System.out.println("Belum ada saham yang bisa dihapus.");
+            InputUtil.pressEnterToContinue();
+            return;
+        }
+
+        for (int i = 0; i < daftarSaham.size(); i++) {
+            System.out.printf("%d. %s\n", i + 1, daftarSaham.get(i));
+        }
+
+        System.out.print("Pilih saham yang akan dihapus (nomor): ");
+        int pilihan = InputUtil.getIntInput(1, daftarSaham.size());
+
+        Saham saham = daftarSaham.get(pilihan - 1);
+        dataStorage.hapusSaham(saham);
+        System.out.println("---------------------------------------------------------------------");
+        System.out.println("Saham berhasil dihapus.");
+        InputUtil.pressEnterToContinue();
+    }
+
     private void kelolaSBN() {
         boolean isSBNMenuActive = true;
 
         while (isSBNMenuActive) {
             ClearScreen.clear();
             adminSbnMenu();
-            int choice = InputUtil.getIntInput(1, 2);
+            int choice = InputUtil.getIntInput(1, 4);
 
             switch (choice) {
                 case 1:
                     tambahSBN();
                     break;
                 case 2:
+                    lihatDaftarSBN();
+                    break;
+                case 3:
+                    hapusSBN();
+                    break;
+                case 4:
                     isSBNMenuActive = false;
                     break;
             }
@@ -152,6 +205,47 @@ public class AdminService implements InvestasiService {
         dataStorage.tambahSBN(sbnBaru);
         System.out.println("---------------------------------------------------------------------");
         System.out.println("SBN berhasil ditambahkan!");
+        InputUtil.pressEnterToContinue();
+    }
+
+    private void lihatDaftarSBN() {
+        ClearScreen.clear();
+        listSbnView();
+        List<SBN> daftarSbn = dataStorage.getDaftarSBN();
+
+        if (daftarSbn.isEmpty()) {
+            System.out.println("Belum ada SBN yang terdaftar.");
+        } else {
+            for (int i = 0; i < daftarSbn.size(); i++) {
+                System.out.printf("%d. %s\n", i + 1, daftarSbn.get(i));
+            }
+        }
+        System.out.println("---------------------------------------------------------------------");
+        InputUtil.pressEnterToContinue();
+    }
+
+    private void hapusSBN() {
+        ClearScreen.clear();
+        deleteSBN();
+        List<SBN> daftarSbn = dataStorage.getDaftarSBN();
+
+        if (daftarSbn.isEmpty()) {
+            System.out.println("Belum ada SBN yang bisa dihapus.");
+            InputUtil.pressEnterToContinue();
+            return;
+        }
+
+        for (int i = 0; i < daftarSbn.size(); i++) {
+            System.out.printf("%d. %s\n", i + 1, daftarSbn.get(i));
+        }
+
+        System.out.print("Pilih SBN yang akan dihapus (nomor): ");
+        int pilihan = InputUtil.getIntInput(1, daftarSbn.size());
+
+        SBN sbn = daftarSbn.get(pilihan - 1);
+        dataStorage.hapusSBN(sbn);
+        System.out.println("---------------------------------------------------------------------");
+        System.out.println("SBN berhasil dihapus.");
         InputUtil.pressEnterToContinue();
     }
 
