@@ -11,7 +11,6 @@ public class Saham {
         this.harga = harga;
     }
 
-    // Getter dan Setter
     public String getKode() { return kode; }
     public String getNamaPerusahaan() { return namaPerusahaan; }
     public double getHarga() { return harga; }

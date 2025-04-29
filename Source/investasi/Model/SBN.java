@@ -17,7 +17,6 @@ public class SBN {
         this.kuotaNasional = kuotaNasional;
     }
 
-    // Getter dan Setter
     public String getNama() {
         return nama;
     }
