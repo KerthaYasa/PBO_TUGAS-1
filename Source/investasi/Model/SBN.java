@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 public class SBN {
     private String nama;
-    private double bunga; // dalam persen
-    private int jangkaWaktu; // dalam bulan
+    private double bunga;
+    private int jangkaWaktu;
     private LocalDate tanggalJatuhTempo;
     private double kuotaNasional;
 

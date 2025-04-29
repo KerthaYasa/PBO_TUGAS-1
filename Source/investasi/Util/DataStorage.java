@@ -12,7 +12,6 @@ public class DataStorage {
     private List<SBN> daftarSBN = new ArrayList<>();
 
     private DataStorage() {
-        // Inisialisasi data contoh
         initializeSampleData();
     }
 
@@ -24,17 +23,14 @@ public class DataStorage {
     }
 
     private void initializeSampleData() {
-        // Data saham contoh
         daftarSaham.add(new Saham("BBCA", "Bank Central Asia", 8500));
         daftarSaham.add(new Saham("TLKM", "Telkom Indonesia", 3500));
 
-        // Data SBN contoh
         daftarSBN.add(new SBN("SBR010", 5.75, 12,
                 LocalDate.now().plusMonths(12), 1000000000));
     }
 
-    // Method untuk Saham
-    public void tambahSaham(Saham saham) {
+        public void tambahSaham(Saham saham) {
         daftarSaham.add(saham);
     }
 
@@ -42,7 +38,6 @@ public class DataStorage {
         return daftarSaham;
     }
 
-    // Method untuk SBN
     public void tambahSBN(SBN sbn) {
         daftarSBN.add(sbn);
     }

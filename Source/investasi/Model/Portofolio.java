@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Portofolio {
-    private Map<investasi.Model.Saham, Integer> sahamDimiliki; // Saham dan jumlah lembar
-    private Map<investasi.Model.SBN, Double> sbnDimiliki; // SBN dan nominal investasi
+    private Map<investasi.Model.Saham, Integer> sahamDimiliki;
+    private Map<investasi.Model.SBN, Double> sbnDimiliki;
 
     public Portofolio() {
         this.sahamDimiliki = new HashMap<>();
