@@ -82,12 +82,16 @@ Admin bisa mengubah harga saham dari list daftar saham yang sudah ada pada gamba
 # LIHAT DAFTAR SAHAM
 ![image](https://github.com/user-attachments/assets/bc34f7a8-6a2f-4669-8f95-ab18dc6e9ad4)
 
-
+<p align="justify">
+Jika admin memilih Saham pada menu admin, maka administrator akan diberi instruksi pada menu admin Saham seperti gambar di atas. Admin akan diminta untuk memilih opsi di atas dengan menginputkan angka. Jika admin memilih opsi Lihat Daftar Saham, maka sistem akan menjalankan proses.
+</p>
 
 # HAPUS SAHAM
 ![image](https://github.com/user-attachments/assets/8334c365-d4c5-44d7-af2f-d02f2417c73b)
 
-
+<p align="justify">
+Jika admin memilih Saham pada menu admin, maka administrator akan diberi instruksi pada menu admin Saham seperti gambar di atas. Admin akan diminta untuk memilih opsi di atas dengan menginputkan angka. Jika admin memilih opsi Hapus Saham, maka sistem akan menjalankan proses.
+</p>
 
 # MENU ADMIN SBN
 ![image](https://github.com/user-attachments/assets/0b29518d-4bf6-4fa3-81c9-46b8ced90618)
@@ -106,11 +110,16 @@ Admin bisa menambahkan SBN dengan menginput nama SBN, bunga per tahun, jangka wa
 # LIHAT DAFTAR SBN
 ![image](https://github.com/user-attachments/assets/1fc3e9e3-0f8d-4cae-b2b0-06d3ce884b3d)
 
-
+<p align="justify">
+Jika admin memilih SBN pada menu admin, maka administrator akan diberi instruksi pada menu admin SBN seperti gambar di atas. Admin akan diminta untuk memilih opsi di atas dengan menginputkan angka. Jika admin memilih opsi Lihat Daftar SBN, maka sistem akan menjalankan proses tersebut. 
+</p>
 
 # HAPUS SBN
 ![image](https://github.com/user-attachments/assets/bdd062a6-b773-4528-bb37-029bf505b94b)
 
+<p align="justify">
+Jika admin memilih SBN pada menu admin, maka administrator akan diberi instruksi pada menu admin SBN seperti gambar di atas. Admin akan diminta untuk memilih opsi di atas dengan menginputkan angka. Jika admin memilih opsi Hapus SBN maka sistem akan menjalankan proses.
+</p>
 
 
 # MENU CUSTOMER
