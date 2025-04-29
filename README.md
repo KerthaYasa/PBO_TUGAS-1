@@ -25,7 +25,7 @@ Di bawah ini adalah deskripsi program, penjelasan dari bagaimana program akan di
   Matkul: PBO (B)
 
 # UML
-![UML PBO FIX](https://github.com/user-attachments/assets/4db589f9-4c30-4cab-833c-ce7d3bb068f0)
+![UML PBO FIX FIX](https://github.com/user-attachments/assets/5dbb3d3f-bb14-452a-8360-6cddc61b5cd3)
 
 # BAGAIMANA PROGRAM DIJALANKAN
 Pengembangan program ini menggunakan konsep-konsep dasar dari Object Oriented Programming yaitu:
@@ -90,7 +90,7 @@ Admin bisa mengubah harga saham dari list daftar saham yang sudah ada pada gamba
 
 
 # MENU ADMIN SBN
-![Menu Admin SBN](https://github.com/user-attachments/assets/f120378e-e612-4964-923c-a134d6fa3f9f)
+![image](https://github.com/user-attachments/assets/0b29518d-4bf6-4fa3-81c9-46b8ced90618)
 
 <p align="justify">
 Jika admin memilih Saham pada menu admin, maka administrator akan diberi instruksi pada menu admin Saham sperti gambar di atas. Admin akan diminta untuk memilih opsi di atas dengan menginputkan angka
@@ -121,7 +121,7 @@ Setelah melakukan login sebagai customer, maka user akan diberi instruksi pada m
 </p>
 
 # BELI SAHAM
-![image](https://github.com/user-attachments/assets/d03d1d93-d2f3-4b5b-8d04-c689064249f3)
+![Beli Saham](https://github.com/user-attachments/assets/e0d13b56-2be7-4924-b0cf-b61ede95df4c)
 
 <p align="justify">
 Customer bisa membeli saham dari list daftar saham yang tersedia seperti pada gambar di atas. Setelah memilih saham yang ingin dibeli, customer perlu memilih jumlah lembar yang ingin dibeli.  Jika berhasil membeli, maka akan terdapat pesan seperti gambar di atas
