@@ -33,7 +33,7 @@ Pengembangan program ini menggunakan konsep-konsep dasar dari Object Oriented Pr
 1. Penerapan Object dan Class.
 2. Penggunaan Alur Kontrol (Flow Control) While loop, for each loop, if, if-else dan switch case.
 3. Array list
-4. Nested Class
+4. Map dan Hash Map
 5. Enscapsulasi
 6. Interface
 7. Override
