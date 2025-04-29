@@ -22,7 +22,9 @@ public class AdminView {
         System.out.println("||                                                                 ||");
         System.out.println("||   [1] Tambah Saham                                              ||");
         System.out.println("||   [2] Ubah Harga Saham                                          ||");
-        System.out.println("||   [3] Kembali                                                   ||");
+        System.out.println("||   [3] Lihat Daftar Saham                                        ||");
+        System.out.println("||   [4] Hapus Saham                                               ||");
+        System.out.println("||   [5] Kembali                                                   ||");
         System.out.println("=====================================================================");
         System.out.print("Masukkan pilihan opsi: ");
     }
@@ -31,6 +33,19 @@ public class AdminView {
         System.out.println("=====================================================================");
         System.out.println("||                     T A M B A H  S A H A M                      ||");
         System.out.println("||    Mohon Masukkan Kode Saham, Nama Perusahaan dan Harga Saham   ||");
+        System.out.println("---------------------------------------------------------------------");
+    }
+
+    public static void listSahamView() {
+        System.out.println("=====================================================================");
+        System.out.println("||                     D A F T A R  S A H A M                      ||");
+        System.out.println("---------------------------------------------------------------------");
+    }
+
+    public static void deleteSaham() {
+        System.out.println("=====================================================================");
+        System.out.println("||                      H A P U S  S A H A M                       ||");
+        System.out.println("||                  Pilih Saham yang Ingin Dihapus                 ||");
         System.out.println("---------------------------------------------------------------------");
     }
 
@@ -48,7 +63,9 @@ public class AdminView {
         System.out.println("---------------------------------------------------------------------");
         System.out.println("||                                                                 ||");
         System.out.println("||   [1] Tambah SBN                                                ||");
-        System.out.println("||   [2] Kembali                                                   ||");
+        System.out.println("||   [2] Lihat Daftar SBN                                          ||");
+        System.out.println("||   [3] Hapus SBN                                                 ||");
+        System.out.println("||   [4] Kembali                                                   ||");
         System.out.println("=====================================================================");
         System.out.print("Masukkan pilihan opsi: ");
     }
@@ -57,6 +74,19 @@ public class AdminView {
         System.out.println("=====================================================================");
         System.out.println("||                       T A M B A H  S B N                        ||");
         System.out.println("||  Masukkan Nama SBN, Bunga, Jangka Waktu, Jatuh Tempo dan Kuota  ||");
+        System.out.println("---------------------------------------------------------------------");
+    }
+
+    public static void listSbnView() {
+        System.out.println("=====================================================================");
+        System.out.println("||                       D A F T A R  S B N                        ||");
+        System.out.println("---------------------------------------------------------------------");
+    }
+
+    public static void deleteSBN() {
+        System.out.println("=====================================================================");
+        System.out.println("||                        H A P U S  S B N                         ||");
+        System.out.println("||                   Pilih SBN yang Ingin Dihapus                  ||");
         System.out.println("---------------------------------------------------------------------");
     }
 
