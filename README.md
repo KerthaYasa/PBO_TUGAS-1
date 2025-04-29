@@ -121,7 +121,7 @@ Setelah melakukan login sebagai customer, maka user akan diberi instruksi pada m
 </p>
 
 # BELI SAHAM
-![Beli Saham](https://github.com/user-attachments/assets/d431c1d9-4d18-4870-b0de-95647a3301e9)
+![image](https://github.com/user-attachments/assets/d03d1d93-d2f3-4b5b-8d04-c689064249f3)
 
 <p align="justify">
 Customer bisa membeli saham dari list daftar saham yang tersedia seperti pada gambar di atas. Setelah memilih saham yang ingin dibeli, customer perlu memilih jumlah lembar yang ingin dibeli.  Jika berhasil membeli, maka akan terdapat pesan seperti gambar di atas
