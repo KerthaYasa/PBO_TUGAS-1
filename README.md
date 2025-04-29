@@ -52,7 +52,7 @@ Setelah user memilih melaukan login, user akan diminta untuk menginputkan userna
 </p>
 
 # MENU ADMIN
-![Menu Admin](https://github.com/user-attachments/assets/d129c818-3b94-40be-a2b6-b1743b88ef47)
+![image](https://github.com/user-attachments/assets/ac9f38f3-7f7e-44a3-9afb-887215915b38)
 
 <p align="justify">
 Setelah melakukan login sebagai administrator, maka user akan diberi intruksi pada menu admin seperti gambar di atas. Admin akan diminta untuk memilih opsi di atas dengan menginputkan angka
@@ -79,6 +79,16 @@ Admin bisa menambahkan saham dengan menambahkan kode saham, nama perusahaan dan 
 Admin bisa mengubah harga saham dari list daftar saham yang sudah ada pada gambar di atas. Setelah memilih saham yang ada, admin perlu menginput harga saham yang baru. Jika berhasil mengubah, maka akan terdapat pesan seperti gambar di atas
 </p>
 
+# LIHAT DAFTAR SAHAM
+![image](https://github.com/user-attachments/assets/bc34f7a8-6a2f-4669-8f95-ab18dc6e9ad4)
+
+
+
+# HAPUS SAHAM
+![image](https://github.com/user-attachments/assets/8334c365-d4c5-44d7-af2f-d02f2417c73b)
+
+
+
 # MENU ADMIN SBN
 ![Menu Admin SBN](https://github.com/user-attachments/assets/f120378e-e612-4964-923c-a134d6fa3f9f)
 
@@ -92,6 +102,16 @@ Jika admin memilih Saham pada menu admin, maka administrator akan diberi instruk
 <p align="justify">
 Admin bisa menambahkan SBN dengan menginput nama SBN, bunga per tahun, jangka wakktu, jatuh tempo dan kuota nasional seperti pada gambar di atas. Jika berhasil menambahkan, maka akan terdapat pesan seperti gambar di atas
 </p>
+
+# LIHAT DAFTAR SBN
+![image](https://github.com/user-attachments/assets/1fc3e9e3-0f8d-4cae-b2b0-06d3ce884b3d)
+
+
+
+# HAPUS SBN
+![image](https://github.com/user-attachments/assets/bdd062a6-b773-4528-bb37-029bf505b94b)
+
+
 
 # MENU CUSTOMER
 ![Customer Menu](https://github.com/user-attachments/assets/3269f691-3971-4914-bf8b-71926b8260c9)
