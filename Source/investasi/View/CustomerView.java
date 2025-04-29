@@ -1,13 +1,6 @@
 package investasi.View;
 
 public class CustomerView {
-    public static void loggedInGreetingCustomer(String userName) {
-        System.out.println("=====================================================================");
-        System.out.printf("||                   Hallo Customer, %-30s||\n", userName);
-        System.out.println("||                                                                 ||");
-        System.out.println("||                  Tekan Enter untuk melanjutkan                  ||");
-        System.out.println("=====================================================================");
-    }
 
     public static void customerMenu() {
         System.out.println("=====================================================================");

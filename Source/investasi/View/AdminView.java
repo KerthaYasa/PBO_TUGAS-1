@@ -1,13 +1,6 @@
 package investasi.View;
 
 public class AdminView {
-    public static void loggedInGreetingAdmin(String userName){
-        System.out.println("=====================================================================");
-        System.out.printf("||                      Hallo Admin, %-30s||\n", userName);
-        System.out.println("||                                                                 ||");
-        System.out.println("||                  Tekan Enter untuk melanjutkan                  ||");
-        System.out.println("=====================================================================");
-    }
 
     public static void adminMenu() {
         System.out.println("=====================================================================");
